@@ -90,6 +90,11 @@ ul.foods li{
     border-radius: 5px;
 }
 
+.resource-row {
+    border-bottom:  solid 1px lightgray;
+    padding-bottom: 10px;
+}
+
 footer {
     margin-top: 80px;
     background-color: white;
