@@ -4,3 +4,29 @@
     Content    : Print friendly Css styles for the website
 */
 
+/* Print Styles */
+@media print {
+    
+body {
+    background: white; color: black; margin: 0 ;
+}
+img, footer, .no-print, .resource-link {
+    display: none !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+h1:first-letter,  h2:first-letter, h3:first-letter,h4:first-letter,h5:first-letter,h6:first-letter {
+    color: black;
+    text-shadow: 0px 0px 0px white;
+}
+
+/*Bootstrap does this on it's own, but I wanted to be thorough and hit listed checkpoint requirements*/
+footer  .navbar .navbar-default {
+    display: none;
+}
+
+}

@@ -5,16 +5,16 @@
 */
 body {
     font-size: 19px;
-    font-family: Arial;
+    font-family: Arial, Helvetica, Verdana, sans-serif ;
     display: none;
 }
 
-h1, h2, h3, h4 {
-    font-family: Helvetica;
+h1, h2, h3, h4,h5,h6 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 26px;
 }
 
-h1:first-letter,  h2:first-letter, h3:first-letter {
+h1:first-letter,  h2:first-letter, h3:first-letter,h4:first-letter,h5:first-letter,h6:first-letter {
     color: #910100;
     text-shadow: 1px 1px 6px #FF9F9B;
 }
@@ -34,7 +34,7 @@ strong {
     width: 80%;
 }
 .navbar-right {
-    margin-right: 20px;
+    
     padding-top: 5px;
 }
 
@@ -77,6 +77,10 @@ table th {
     color: #910100;
     text-shadow: 0px 0px 13px white;
 }
+
+.brainfoods{
+    padding-top: 20px;
+}
 ul.foods {
     padding-left: 0px;
     padding-bottom: 15px;
@@ -95,11 +99,35 @@ ul.foods li{
     padding-bottom: 10px;
 }
 
+.resource-row:last-of-type {
+    border-bottom: none;
+}
+
+.resource-link {
+    color: black;
+    text-decoration: underline;
+}
+
+.resource-link:hover {
+    color: #910100;
+}
+
 footer {
     margin-top: 80px;
     background-color: white;
     box-shadow: 0px 0px 20px -9px #8f0100;
-    height: 100px;
+    min-height: 100px;
+    text-align: center;
 }
 
+footer a {
+    color:  #910100;
+    padding-top: 20px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+footer a:hover {
+    color: black;
+}
 

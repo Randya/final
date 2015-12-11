@@ -7,14 +7,19 @@
         <meta name="keywords" content="Mathematics tips, Mathematic jokes, mathematic humor, mathematic tutorials">
         <meta charset="UTF-8">
 
+        <!--
+        Author: Randy
+        Title: Final Project - Using Resources
+        Date: 12/10/15
+        -->
 
-        <title>Brain Fart</title>
+        <title>Using Resources</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/finalStyle.css" rel="stylesheet" type="text/css"/>
         <link href="css/finalMobile.css" rel="stylesheet" type="text/css"/>
-        <link href="css/finalPrint.css" rel="stylesheet" type="text/css"/>
-
+        <link href="css/finalPrint.css" rel="stylesheet" type="text/css" media="print"/>
     </head>
+
     <body>
         <nav class="navbar navbar-default">
             <div class="container">
@@ -31,9 +36,9 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="./">Math Stinks<span class="sr-only">(current)</span></a></li>
+                        <li><a href="./">Math Stinks<span class="sr-only">(current)</span></a></li>
                         <li><a href="thinklogical.html">Think Logically</a></li>
-                        <li><a href="usingresources.html">Using Resources</a></li>
+                        <li  class="active"><a href="usingresources.html">Using Resources</a><span class="sr-only">(current)</span></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /End of Nav .container-->
@@ -43,7 +48,7 @@
 
                 <div class="row resource-row">
                     <div class="col-md-2">
-                        <a href="https://www.youtube.com"  title="Go to Youtube"> <img src="img/youtubelogo.png" class="img-responsive" alt="youtube logo" /></a>
+                        <a href="https://www.youtube.com"  class="hidden-xs" title="Go to Youtube"> <img src="img/youtubelogo.png" class="img-responsive" alt="youtube logo" /></a>
                     </div>
                     <div class="col-md-10">
                         <h1>Youtube</h1>
@@ -51,35 +56,21 @@
                             Using Youtube's search box, you will gain access to a ton of valuable and reliable resources. Doing simple searches on the exact subject matter you want to learn will
                             return many results, of which many will exist for channels that devote all of their time to Math alone.
                         </p>
+                        <p><a href="https://youtube.com" class="visible-xs resource-link" title="Go to Youtube" target="_blank">Go to Youtube</a></p>
                     </div>
                 </div>
 
                 <div class="row resource-row">
                     <div class="col-md-2">
-                        <a href="https://www.lhanacademy.org"  title="Go to Youtube"> <img src="img/khanlogo.png" class="img-responsive" alt="Khan Academy logo" /></a>
+                        <a href="https://www.lhanacademy.org"  class="hidden-xs" title="Go to Khan Academy"> <img src="img/khanlogo.png" class="img-responsive" alt="Khan Academy logo" /></a>
                     </div>
                     <div class="col-md-10">
-                        <h2>Khan Academy</h1>
-                            <p>
-                                Khan Academy is a huge resource that doesn't just offer math videos, but as well interactive tests and lessons. Both video and lessons are compiled together based on
-                                the specific subject matter you need to work on, making the site quite convenient indeed.
-
-                            </p>
-                    </div>
-
-
-                </div>
-
-                <div class="row resource-row">
-                    <div class="col-md-2">
-                        <a href="https://www.mathway.com"  title="Go to Youtube"> <img src="img/mathwaylogo.png" class="img-responsive" alt="Mathway logo" /></a>
-                    </div>
-                    <div class="col-md-10">
-                        <h3>Mathway</h1>
-                            <p>
-                                Mathway is a desktop and mobile friendly website that provides tutorials, but more importantly a calculator for almost all math problems. It provides a somewhat
-                                detailed walk-through of how to get the answer, and if you pay, and even more detailed version of the walk through is given. Use it to "Learn".
-                            </p>
+                        <h2>Khan Academy</h2>
+                        <p>
+                            Khan Academy is a huge resource that doesn't just offer math videos, but as well interactive tests and lessons. Both video and lessons are compiled together based on
+                            the specific subject matter you need to work on, making the site quite convenient indeed.
+                        </p>
+                        <p><a href="https://www.khanacademy.org" class="visible-xs resource-link" title="Go to KhanAcademy" target="_blank">Go to Khan Academy</a></p>
                     </div>
 
 
@@ -87,14 +78,15 @@
 
                 <div class="row resource-row">
                     <div class="col-md-2">
-                        <a href="https://www.mathpapa.com"  title="Go to Youtube"> <img src="img/mathpapalogo.png" class="img-responsive" alt="Mathpapa logo" /></a>
+                        <a href="https://www.mathway.com" class="hidden-xs" title="Go to Mathway"> <img src="img/mathwaylogo.png" class="img-responsive" alt="Mathway logo" /></a>
                     </div>
                     <div class="col-md-10">
-                        <h3>Math Papa</h1>
-                            <p>
-                                Math Papa is much like Mathway, except it's free. For "many" problems, it will even provide the more detailed answers with it's calculator. The user interface leaves a
-                                a lot to be desired though, and many problems you will encounter in math can't be performed easily, if at all. It's worth a try when all else fails.
-                            </p>
+                        <h3>Mathway</h3>
+                        <p>
+                            Mathway is a desktop and mobile friendly website that provides tutorials, but more importantly a calculator for almost all math problems. It provides a somewhat
+                            detailed walk-through of how to get the answer, and if you pay, and even more detailed version of the walk through is given. Use it to "Learn".
+                        </p>
+                        <p><a href="https://mathway.com" class="visible-xs resource-link" title="Go to Mathway" target="_blank">Go to Mathway</a></p>
                     </div>
 
 
@@ -102,29 +94,47 @@
 
                 <div class="row resource-row">
                     <div class="col-md-2">
-                        <a href="https://www.wyzant.com"  title="Go to Youtube"> <img src="img/wyzantlogo.png" class="img-responsive" alt="Wyzant logo" /></a>
+                        <a href="http://www.mathpapa.com" class="hidden-xs" title="Go to Math Papa"> <img src="img/mathpapalogo.png" class="img-responsive" alt="Mathpapa logo" /></a>
                     </div>
                     <div class="col-md-10">
-                        <h3>Wyzant</h1>
-                            <p>
-                                Wyzant is a website that creates an environment friendly for both tutors and their students to connect. You can get in touch with a tutor near you easily, or you can also 
-                                have a session with a tutor on the website using some pretty handy dandy built in tools. If you have the money, you should give this a go.
-                            </p>
+                        <h4>Math Papa</h4>
+                        <p>
+                            Math Papa is much like Mathway, except it's free. For "many" problems, it will even provide the more detailed answers with it's calculator. The user interface leaves a
+                            a lot to be desired though, and many problems you will encounter in math can't be performed easily, if at all. It's worth a try when all else fails.
+                        </p>
+                        <p><a href="http://mathpapa.com" class="visible-xs resource-link" title="Go to Math Papa" target="_blank">Go to Math Papa</a></p>
                     </div>
 
 
                 </div>
-                
+
                 <div class="row resource-row">
                     <div class="col-md-2">
-                        <a href="https://www.algebra.com"  title="Go to Youtube"> <img src="img/algebracomlogo.png" class="img-responsive" alt="Algebra.com logo" /></a>
+                        <a href="https://www.wyzant.com" class="hidden-xs" title="Go to Wyzant"> <img src="img/wyzantlogo.png" class="img-responsive" alt="Wyzant logo" /></a>
                     </div>
                     <div class="col-md-10">
-                        <h3>Algebra.com</h1>
-                            <p>
-                                Algebra.com is a website where you will find many tutorials, and when I say many, I mean overwhelmingly many. It is also a great place to find answers to the
-                                actual question you are working on at the moment. If you type in the whole problem, many times you will find the worked out solution and it's steps.
-                            </p>
+                        <h5>Wyzant</h5>
+                        <p>
+                            Wyzant is a website that creates an environment friendly for both tutors and their students to connect. You can get in touch with a tutor near you easily, or you can also 
+                            have a session with a tutor on the website using some pretty handy dandy built in tools. If you have the money, you should give this a go.
+                        </p>
+                        <p><a href="https://www.wyzant.com" class="visible-xs resource-link" title="Go to Wyzant" target="_blank">Go to Wyzant</a></p>
+                    </div>
+
+
+                </div>
+
+                <div class="row resource-row">
+                    <div class="col-md-2">
+                        <a href="https://www.algebra.com" class="hidden-xs" title="Go to Algebra.com"> <img src="img/algebracomlogo.png" class="img-responsive" alt="Algebra.com logo" /></a>
+                    </div>
+                    <div class="col-md-10">
+                        <h6>Algebra.com</h6>
+                        <p>
+                            Algebra.com is a website where you will find many tutorials, and when I say many, I mean overwhelmingly many. It is also a great place to find answers to the
+                            actual question you are working on at the moment. If you type in the whole problem, many times you will find the worked out solution and it's steps.
+                        </p>
+                        <p><a href="https://algebra.com" class="visible-xs resource-link" title="Go to Algebra.com" target="_blank">Go to Algebra.com</a></p>
                     </div>
 
 
@@ -134,7 +144,21 @@
             </div>
         </section>
 
-        <footer>Footer Text</footer>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="mailto:randy.cramer@my.sinclair.edu?Subject=Website%20Error" class="center-block">Contact the webmaster</a>   
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="tel:9378139587" class="center-block">Need tutoring? 937-813-9587</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="privacy.html" class="center-block" title="Privacy Policy" target="_blank">Privacy Statement</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/finalCustom.js" type="text/javascript"></script>

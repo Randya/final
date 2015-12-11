@@ -6,15 +6,19 @@
         <meta name="description" content="A website for mathematical humor and inspiration.">
         <meta name="keywords" content="Mathematics tips, Mathematic jokes, mathematic humor, mathematic tutorials">
         <meta charset="UTF-8">
-        
-        
+         
+        <!--
+        Author: Randy
+        Title: Final Project - Index Page
+        Date: 12/10/15
+        -->
+
         <title>Brain Fart</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/finalStyle.css" rel="stylesheet" type="text/css"/>
-        <link href="css/finalMobile.css" rel="stylesheet" type="text/css"/>
+        <link href="css/finalMobile.css" rel="stylesheet" type="text/css" media="print"/>
         <link href="css/finalPrint.css" rel="stylesheet" type="text/css"/>
-       
-    </head>
+ </head>
     <body>
         <nav class="navbar navbar-default">
             <div class="container">
@@ -49,12 +53,12 @@
                             some people do somehow find math enjoyable. For the rest of us, we have come to understand that
                             <em>"Math Stinks".</em>
                         </p>
-                        
+
                         <p>With the above being already said, humor sure can help lighten the stress. I've done
-                           what I can to add a few laughs on the site to keep things interesting.
+                            what I can to add a few laughs on the site to keep things interesting.
                         </p>
 
-                        <p>Although I don't expect you to believe that I can make math not stink, I would like you to take
+                        <p class="hidden-xs">Although I don't expect you to believe that I can make math not stink, I would like you to take
                             a few moments to view the pages of this website. By keeping an open mind, and learning some of the many
                             reasons that people struggle with math, you'll have a better sense of how to overcome your troubles.
                         </p>
@@ -90,25 +94,38 @@
                                 </tr>
                             </tbody>
                         </table>
-                        
                     </div>
 
                     <div class="col-md-4 imgrow">
-                        <p class="panel-body">Math Laughs</p>
-                        <div class="col-lg-12 col-sm-6">
-                            <p><img src="img/I-hate-math-2.jpg" class="img-thumbnail" alt="FInd X Math Joke"/></p>
+                        <p class="panel-body no-print">Math Laughs</p>
+                        <div class="col-lg-12 col-xs-6">
+                            <p><img src="img/I-hate-math-2.jpg" class="img-thumbnail" alt="FInd X Math Joke Photo"/></p>
                         </div>
-                        <div class="col-lg-12 col-sm-6">
+                        <div class="col-lg-12 col-xs-6">
                             <p><img src="img/bathroom.gif"  class="img-thumbnail" alt="Funny Math Photo"/></p>
                         </div>
-                        <div class="col-lg-12 col-sm-6">
-                            <img src="img/math.jpg" class="img-thumbnail" alt="75% of and 18% Joke"/>
+                        <div class="col-lg-12 col-xs-6 ">
+                            <img src="img/math.jpg" class="img-thumbnail" alt="75% of and 18% Joke Photo"/>
                         </div>
                     </div>
                 </div><!--End of first .row-->
             </div><!--End of content .container-->
         </section>
-        <footer>Footer Text</footer>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="#" class="center-block">Contact the webmaster</a>   
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#" class="center-block">Need Tutoring?</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="privacy.html" class="center-block">Privacy Statement</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/finalCustom.js" type="text/javascript"></script>

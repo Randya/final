@@ -4,3 +4,15 @@
     Content    : Mobile Css for the website
 */
 
+@media  screen and (max-width: 992px) {
+    .navbar-brand {
+        width: 240px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .navbar-default {
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+    
+}
